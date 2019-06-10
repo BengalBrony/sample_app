@@ -36,6 +36,10 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+Once you've made a commit + message, you can create the repo on Github and then run these commands to push all your fancy new code up to the Repo!
+
+$ git remote add origin git@bitbucket.org:<username>/sample_app.git
+$ git push -u origin --all # pushes up the repo and its refs for the first time
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
